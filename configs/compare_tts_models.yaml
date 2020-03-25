@@ -1,0 +1,50 @@
+# test config mushra page, 2 trials: 1) not randomized, condition names shown 2) 
+
+testname: Compare TTS models
+testId: tts_random
+bufferSize: 2048
+stopOnErrors: false
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+    - type: mushra
+      id: trial1
+      name: First recording
+      content: test description 2
+      showWaveform: true
+      enableLooping: false
+      reference: configs/resources/audio/synthesized_audio/reference/0.wav
+      createAnchor35: false
+      createAnchor70: false
+      randomize: true
+      showConditionNames: true
+      stimuli:
+          deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/0.wav
+          efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/0.wav
+          tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/0.wav
+          
+
+    - type: mushra
+      id: trial2
+      name: First recording
+      content: test description
+      showWaveform: true
+      enableLooping: false
+      reference: configs/resources/audio/synthesized_audio/reference/1.wav
+      createAnchor35: false
+      createAnchor70: false
+      randomize: false
+      showConditionNames: true
+      stimuli:
+          deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/1.wav
+          efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/1.wav
+          tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/1.wav
+
+    - type: finish
+      name: Thank you
+      content: Thank you for attending
+      popupcontent: Your results were sent. Goodbye and have a nice day      
+      showResults: true
+      writeResults: true

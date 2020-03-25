@@ -66,7 +66,24 @@ function callbackURLFound() {
 }
 
 function addPagesToPageManager(_pageManager, _pages) {
-  for (var i = 0; i < _pages.length; ++i) {
+
+  var TOTAL_PAGES = 10;
+  var pages_to_use = [...Array(_pages.length).keys()].slice(1, -1),
+    ranNums = [],
+    i = pages_to_use.length,
+    j = 0;
+  
+  while (i--) {
+    j = Math.floor(Math.random() * (i+1));
+    ranNums.push(pages_to_use[j]);
+    pages_to_use.splice(j,1);
+  }
+
+  ranNums = ranNums.slice(0, TOTAL_PAGES);
+  ranNums.splice(0, 0, 0);  //insert start page
+  ranNums.push(_pages.length -1);  //append end page
+
+  for (i of ranNums) {
     if (Array.isArray(_pages[i])) {
       if (_pages[i][0] === "random") {
         _pages[i].shift();
