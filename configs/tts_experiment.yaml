@@ -1,5 +1,5 @@
 testname: Compare TTS models
-testId: tts_random
+testId: tts_experiment
 bufferSize: '4096'
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -7,13 +7,20 @@ remoteService: service/write.php
 pages:
   - type: generic
     id: intro_page
-    name: Welcome to this survey
-    content: Some welcome text.
+    name: Speech synthesis evaluation
+    content: Hi, welcome to this speech synthesis survey. My name is Jan Vainer and
+      I need your help! In my thesis, I tried to develop a high-quality speech synthesis
+      system. But before submitting the thesis, the system needs a quality evaluation.
+      Please evaluate the following sentence recordings according to perceived quality
+      and speech fluency. On each page, you will be presented with 5 recordings of
+      the same sentence. One recording is synthesized from my system, three recordings
+      are synthesized from other systems and the last recording is a human speaker.
+      The recordings are randomly shuffled. There will be 10 pages in total.
   - type: mushra
     id: sentence0
-    name: Some name
-    content: Based on its experience during this period, the Secret Service now recommends
+    name: Based on its experience during this period, the Secret Service now recommends
       that additional personnel be made available to PRS
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/0.wav
@@ -25,11 +32,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/0.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/0.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/0.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/0.wav
   - type: mushra
     id: sentence1
-    name: Some name
-    content: so that these arrangements can be made permanent without adversely affecting
+    name: so that these arrangements can be made permanent without adversely affecting
       the operations of the Services field offices.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/1.wav
@@ -41,11 +49,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/1.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/1.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/1.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/1.wav
   - type: mushra
     id: sentence2
-    name: Some name
-    content: The Commission regards this as a most useful innovation and urges that
-      the practice be continued.
+    name: The Commission regards this as a most useful innovation and urges that the
+      practice be continued.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/2.wav
@@ -57,10 +66,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/2.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/2.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/2.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/2.wav
   - type: mushra
     id: sentence3
-    name: Some name
-    content: Liaison With Local Law Enforcement Agencies
+    name: Liaison With Local Law Enforcement Agencies
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/3.wav
@@ -72,11 +82,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/3.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/3.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/3.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/3.wav
   - type: mushra
     id: sentence4
-    name: Some name
-    content: Advice by the Secret Service to local police in metropolitan areas relating
+    name: Advice by the Secret Service to local police in metropolitan areas relating
       to the assistance expected in connection with a Presidential visit
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/4.wav
@@ -88,10 +99,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/4.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/4.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/4.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/4.wav
   - type: mushra
     id: sentence5
-    name: Some name
-    content: has hitherto been handled on an informal basis.
+    name: has hitherto been handled on an informal basis.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/5.wav
@@ -103,11 +115,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/5.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/5.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/5.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/5.wav
   - type: mushra
     id: sentence6
-    name: Some name
-    content: The Service should consider preparing formal explanations of the cooperation
+    name: The Service should consider preparing formal explanations of the cooperation
       anticipated during a Presidential visit to a city,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/6.wav
@@ -119,10 +132,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/6.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/6.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/6.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/6.wav
   - type: mushra
     id: sentence7
-    name: Some name
-    content: in formats that can be communicated to each level of local authorities.
+    name: in formats that can be communicated to each level of local authorities.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/7.wav
@@ -134,11 +148,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/7.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/7.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/7.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/7.wav
   - type: mushra
     id: sentence8
-    name: Some name
-    content: Thus, the local chief of police could be given a master plan, prepared
-      for the occasion, of all protective measures to be taken during the visit;
+    name: Thus, the local chief of police could be given a master plan, prepared for
+      the occasion, of all protective measures to be taken during the visit;
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/8.wav
@@ -150,11 +165,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/8.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/8.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/8.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/8.wav
   - type: mushra
     id: sentence9
-    name: Some name
-    content: each patrolman might be given a prepared booklet of instructions explaining
+    name: each patrolman might be given a prepared booklet of instructions explaining
       what is expected of him. The Secret Service has expressed concern
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/9.wav
@@ -166,11 +182,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/9.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/9.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/9.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/9.wav
   - type: mushra
     id: sentence10
-    name: Some name
-    content: that written instructions might come into the hands of local newspapers,
+    name: that written instructions might come into the hands of local newspapers,
       to the prejudice of the precautions described.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/10.wav
@@ -182,11 +199,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/10.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/10.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/10.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/10.wav
   - type: mushra
     id: sentence11
-    name: Some name
-    content: However, the instructions must be communicated to the local police in
-      any event and can be leaked to the press whether or not they are in writing.
+    name: However, the instructions must be communicated to the local police in any
+      event and can be leaked to the press whether or not they are in writing.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/11.wav
@@ -198,11 +216,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/11.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/11.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/11.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/11.wav
   - type: mushra
     id: sentence12
-    name: Some name
-    content: More importantly, the lack of carefully prepared and carefully transmitted
+    name: More importantly, the lack of carefully prepared and carefully transmitted
       instructions for typical visits to cities
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/12.wav
@@ -214,11 +233,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/12.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/12.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/12.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/12.wav
   - type: mushra
     id: sentence13
-    name: Some name
-    content: can lead to lapses in protection, such as the confusion in Dallas about
+    name: can lead to lapses in protection, such as the confusion in Dallas about
       whether members of the public were permitted on overpasses.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/13.wav
@@ -230,10 +250,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/13.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/13.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/13.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/13.wav
   - type: mushra
     id: sentence14
-    name: Some name
-    content: Such instructions will not fit all circumstances, of course,
+    name: Such instructions will not fit all circumstances, of course,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/14.wav
@@ -245,11 +266,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/14.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/14.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/14.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/14.wav
   - type: mushra
     id: sentence15
-    name: Some name
-    content: and should not be relied upon to the detriment of the imaginative application
+    name: and should not be relied upon to the detriment of the imaginative application
       of judgment in special cases.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/15.wav
@@ -261,10 +283,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/15.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/15.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/15.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/15.wav
   - type: mushra
     id: sentence16
-    name: Some name
-    content: Inspection of Buildings
+    name: Inspection of Buildings
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/16.wav
@@ -276,12 +299,13 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/16.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/16.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/16.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/16.wav
   - type: mushra
     id: sentence17
-    name: Some name
-    content: Since the assassination of President Kennedy, the Secret Service has
-      been experimenting with new techniques in the inspection of buildings along
-      a motorcade route.
+    name: Since the assassination of President Kennedy, the Secret Service has been
+      experimenting with new techniques in the inspection of buildings along a motorcade
+      route.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/17.wav
@@ -293,10 +317,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/17.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/17.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/17.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/17.wav
   - type: mushra
     id: sentence18
-    name: Some name
-    content: According to Secretary Dillon,
+    name: According to Secretary Dillon,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/18.wav
@@ -308,11 +333,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/18.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/18.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/18.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/18.wav
   - type: mushra
     id: sentence19
-    name: Some name
-    content: the studies indicate that there is some utility in attempting to designate
+    name: the studies indicate that there is some utility in attempting to designate
       certain buildings as involving a higher risk than others.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/19.wav
@@ -324,11 +350,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/19.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/19.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/19.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/19.wav
   - type: mushra
     id: sentence20
-    name: Some name
-    content: The Commission strongly encourages these efforts to improve protection
-      along a motorcade route.
+    name: The Commission strongly encourages these efforts to improve protection along
+      a motorcade route.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/20.wav
@@ -340,11 +367,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/20.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/20.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/20.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/20.wav
   - type: mushra
     id: sentence21
-    name: Some name
-    content: The Secret Service should utilize the personnel of other Federal law
-      enforcement offices
+    name: The Secret Service should utilize the personnel of other Federal law enforcement
+      offices
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/21.wav
@@ -356,11 +384,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/21.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/21.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/21.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/21.wav
   - type: mushra
     id: sentence22
-    name: Some name
-    content: in the locality to assure adequate manpower for this task, as it is now
+    name: in the locality to assure adequate manpower for this task, as it is now
       doing.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/22.wav
@@ -372,11 +401,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/22.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/22.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/22.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/22.wav
   - type: mushra
     id: sentence23
-    name: Some name
-    content: Lack of adequate resources is an unacceptable excuse for failing to improve
+    name: Lack of adequate resources is an unacceptable excuse for failing to improve
       advance precautions
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/23.wav
@@ -388,10 +418,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/23.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/23.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/23.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/23.wav
   - type: mushra
     id: sentence24
-    name: Some name
-    content: in this crucial area of Presidential protection.
+    name: in this crucial area of Presidential protection.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/24.wav
@@ -403,10 +434,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/24.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/24.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/24.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/24.wav
   - type: mushra
     id: sentence25
-    name: Some name
-    content: Secret Service Personnel and Facilities
+    name: Secret Service Personnel and Facilities
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/25.wav
@@ -418,10 +450,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/25.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/25.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/25.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/25.wav
   - type: mushra
     id: sentence26
-    name: Some name
-    content: Testimony and other evidence before the Commission
+    name: Testimony and other evidence before the Commission
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/26.wav
@@ -433,11 +466,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/26.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/26.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/26.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/26.wav
   - type: mushra
     id: sentence27
-    name: Some name
-    content: suggest that the Secret Service is trying to accomplish its job with
-      too few people and without adequate modern equipment.
+    name: suggest that the Secret Service is trying to accomplish its job with too
+      few people and without adequate modern equipment.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/27.wav
@@ -449,11 +483,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/27.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/27.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/27.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/27.wav
   - type: mushra
     id: sentence28
-    name: Some name
-    content: Although Chief Rowley does not complain about the pay scale for Secret
-      Service agents,
+    name: Although Chief Rowley does not complain about the pay scale for Secret Service
+      agents,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/28.wav
@@ -465,10 +500,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/28.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/28.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/28.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/28.wav
   - type: mushra
     id: sentence29
-    name: Some name
-    content: salaries are below those of the FBI and leading municipal police forces.
+    name: salaries are below those of the FBI and leading municipal police forces.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/29.wav
@@ -480,10 +516,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/29.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/29.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/29.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/29.wav
   - type: mushra
     id: sentence30
-    name: Some name
-    content: The assistant to the Director of the FBI testified that
+    name: The assistant to the Director of the FBI testified that
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/30.wav
@@ -495,11 +532,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/30.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/30.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/30.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/30.wav
   - type: mushra
     id: sentence31
-    name: Some name
-    content: the caseload of each FBI agent averaged 20 to 25, and he felt that this
+    name: the caseload of each FBI agent averaged 20 to 25, and he felt that this
       was high.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/31.wav
@@ -511,11 +549,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/31.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/31.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/31.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/31.wav
   - type: mushra
     id: sentence32
-    name: Some name
-    content: Chief Rowley testified that the present workload of each Secret Service
+    name: Chief Rowley testified that the present workload of each Secret Service
       agent averages 110.1 cases.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/32.wav
@@ -527,11 +566,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/32.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/32.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/32.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/32.wav
   - type: mushra
     id: sentence33
-    name: Some name
-    content: While these statistics relate to the activities of Secret Service agents
+    name: While these statistics relate to the activities of Secret Service agents
       stationed in field offices and not the White House detail,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/33.wav
@@ -543,11 +583,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/33.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/33.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/33.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/33.wav
   - type: mushra
     id: sentence34
-    name: Some name
-    content: field agents supplement those on the detail, particularly when the President
+    name: field agents supplement those on the detail, particularly when the President
       is traveling.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/34.wav
@@ -559,11 +600,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/34.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/34.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/34.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/34.wav
   - type: mushra
     id: sentence35
-    name: Some name
-    content: Although the Commission does not know whether the cases involved are
-      entirely comparable,
+    name: Although the Commission does not know whether the cases involved are entirely
+      comparable,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/35.wav
@@ -575,11 +617,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/35.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/35.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/35.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/35.wav
   - type: mushra
     id: sentence36
-    name: Some name
-    content: these figures suggest that the agents of the Secret Service are substantially
+    name: these figures suggest that the agents of the Secret Service are substantially
       overworked.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/36.wav
@@ -591,10 +634,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/36.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/36.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/36.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/36.wav
   - type: mushra
     id: sentence37
-    name: Some name
-    content: In its budget request for the fiscal year beginning July 1, 1964,
+    name: In its budget request for the fiscal year beginning July 1, 1964,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/37.wav
@@ -606,11 +650,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/37.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/37.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/37.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/37.wav
   - type: mushra
     id: sentence38
-    name: Some name
-    content: the Secret Service sought funds for 25 new positions, primarily in field
+    name: the Secret Service sought funds for 25 new positions, primarily in field
       offices. This increase has been approved by the Congress.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/38.wav
@@ -622,11 +667,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/38.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/38.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/38.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/38.wav
   - type: mushra
     id: sentence39
-    name: Some name
-    content: Chief Rowley explained that this would not provide enough additional
-      manpower to take all the measures which he considers required.
+    name: Chief Rowley explained that this would not provide enough additional manpower
+      to take all the measures which he considers required.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/39.wav
@@ -638,10 +684,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/39.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/39.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/39.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/39.wav
   - type: mushra
     id: sentence40
-    name: Some name
-    content: However, the 1964 to 65 budget request was submitted in November 1963
+    name: However, the 1964 to 65 budget request was submitted in November 1963
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/40.wav
@@ -653,11 +700,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/40.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/40.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/40.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/40.wav
   - type: mushra
     id: sentence41
-    name: Some name
-    content: and requests for additional personnel were not made because of the studies
+    name: and requests for additional personnel were not made because of the studies
       then being conducted.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/41.wav
@@ -669,11 +717,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/41.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/41.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/41.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/41.wav
   - type: mushra
     id: sentence42
-    name: Some name
-    content: The Secret Service has now presented its recommendations to the Bureau
-      of the Budget. The plan proposed by the Service
+    name: The Secret Service has now presented its recommendations to the Bureau of
+      the Budget. The plan proposed by the Service
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/42.wav
@@ -685,11 +734,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/42.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/42.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/42.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/42.wav
   - type: mushra
     id: sentence43
-    name: Some name
-    content: would take approximately 20 months to implement and require expenditures
+    name: would take approximately 20 months to implement and require expenditures
       of approximately $3,000,000 during that period.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/43.wav
@@ -701,11 +751,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/43.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/43.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/43.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/43.wav
   - type: mushra
     id: sentence44
-    name: Some name
-    content: The plan provides for an additional 205 agents for the Secret Service.
-      Seventeen of this number are proposed for the Protective Research Section;
+    name: The plan provides for an additional 205 agents for the Secret Service. Seventeen
+      of this number are proposed for the Protective Research Section;
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/44.wav
@@ -717,11 +768,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/44.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/44.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/44.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/44.wav
   - type: mushra
     id: sentence45
-    name: Some name
-    content: 145 are proposed for the field offices to handle the increased volume
-      of security investigations
+    name: 145 are proposed for the field offices to handle the increased volume of
+      security investigations
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/45.wav
@@ -733,11 +785,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/45.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/45.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/45.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/45.wav
   - type: mushra
     id: sentence46
-    name: Some name
-    content: and be available to protect the President or Vice President when they
-      travel;
+    name: and be available to protect the President or Vice President when they travel;
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/46.wav
@@ -749,11 +801,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/46.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/46.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/46.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/46.wav
   - type: mushra
     id: sentence47
-    name: Some name
-    content: 18 agents are proposed for a rotating pool which will go through an intensive
+    name: 18 agents are proposed for a rotating pool which will go through an intensive
       training cycle and also be available to supplement the White House detail
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/47.wav
@@ -765,11 +818,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/47.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/47.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/47.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/47.wav
   - type: mushra
     id: sentence48
-    name: Some name
-    content: in case of unexpected need; and 25 additional agents are recommended
-      to provide the Vice President full protection.
+    name: in case of unexpected need; and 25 additional agents are recommended to
+      provide the Vice President full protection.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/48.wav
@@ -781,12 +835,13 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/48.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/48.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/48.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/48.wav
   - type: mushra
     id: sentence49
-    name: Some name
-    content: The Commission urges that the Bureau of the Budget review these recommendations
+    name: The Commission urges that the Bureau of the Budget review these recommendations
       with the Secret Service and authorize a request for the necessary supplemental
       appropriation,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/49.wav
@@ -798,11 +853,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/49.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/49.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/49.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/49.wav
   - type: mushra
     id: sentence50
-    name: Some name
-    content: as soon as it can be justified. The Congress has often stressed that
-      it will support any reasonable request for funds for the protection of the President.
+    name: as soon as it can be justified. The Congress has often stressed that it
+      will support any reasonable request for funds for the protection of the President.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/50.wav
@@ -814,10 +870,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/50.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/50.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/50.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/50.wav
   - type: mushra
     id: sentence51
-    name: Some name
-    content: Manpower and Technical Assistance From Other Agencies
+    name: Manpower and Technical Assistance From Other Agencies
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/51.wav
@@ -829,11 +886,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/51.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/51.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/51.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/51.wav
   - type: mushra
     id: sentence52
-    name: Some name
-    content: Before the assassination the Secret Service infrequently requested other
+    name: Before the assassination the Secret Service infrequently requested other
       Federal law enforcement agencies to provide personnel
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/52.wav
@@ -845,10 +903,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/52.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/52.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/52.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/52.wav
   - type: mushra
     id: sentence53
-    name: Some name
-    content: to assist in its protection functions.
+    name: to assist in its protection functions.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/53.wav
@@ -860,11 +919,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/53.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/53.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/53.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/53.wav
   - type: mushra
     id: sentence54
-    name: Some name
-    content: Since the assassination, the Service has experimented with the use of
-      agents borrowed for short periods from such agencies.
+    name: Since the assassination, the Service has experimented with the use of agents
+      borrowed for short periods from such agencies.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/54.wav
@@ -876,11 +936,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/54.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/54.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/54.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/54.wav
   - type: mushra
     id: sentence55
-    name: Some name
-    content: It has used other Treasury law enforcement agents on special experiments
+    name: It has used other Treasury law enforcement agents on special experiments
       in building and route surveys in places to which the President frequently travels.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/55.wav
@@ -892,11 +953,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/55.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/55.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/55.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/55.wav
   - type: mushra
     id: sentence56
-    name: Some name
-    content: It has also used other Federal law enforcement agents during Presidential
+    name: It has also used other Federal law enforcement agents during Presidential
       visits to cities in which such agents are stationed.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/56.wav
@@ -908,10 +970,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/56.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/56.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/56.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/56.wav
   - type: mushra
     id: sentence57
-    name: Some name
-    content: Thus, in the 4 months following the assassination,
+    name: Thus, in the 4 months following the assassination,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/57.wav
@@ -923,11 +986,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/57.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/57.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/57.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/57.wav
   - type: mushra
     id: sentence58
-    name: Some name
-    content: the FBI, on 16 separate occasions, supplied a total of 139 agents to
-      assist in protection work during a Presidential visit,
+    name: the FBI, on 16 separate occasions, supplied a total of 139 agents to assist
+      in protection work during a Presidential visit,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/58.wav
@@ -939,10 +1003,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/58.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/58.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/58.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/58.wav
   - type: mushra
     id: sentence59
-    name: Some name
-    content: which represents a departure from its prior practice.
+    name: which represents a departure from its prior practice.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/59.wav
@@ -954,10 +1019,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/59.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/59.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/59.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/59.wav
   - type: mushra
     id: sentence60
-    name: Some name
-    content: From February 11 through June 30, 1964,
+    name: From February 11 through June 30, 1964,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/60.wav
@@ -969,11 +1035,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/60.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/60.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/60.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/60.wav
   - type: mushra
     id: sentence61
-    name: Some name
-    content: the Service had the advantage of 9,500 hours of work by other enforcement
+    name: the Service had the advantage of 9,500 hours of work by other enforcement
       agencies.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/61.wav
@@ -985,11 +1052,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/61.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/61.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/61.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/61.wav
   - type: mushra
     id: sentence62
-    name: Some name
-    content: The FBI has indicated that it is willing to continue to make such assistance
+    name: The FBI has indicated that it is willing to continue to make such assistance
       available,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/62.wav
@@ -1001,11 +1069,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/62.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/62.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/62.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/62.wav
   - type: mushra
     id: sentence63
-    name: Some name
-    content: even though it agrees with the Secret Service that it is preferable for
+    name: even though it agrees with the Secret Service that it is preferable for
       the Service to have enough agents to handle all protective demands.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/63.wav
@@ -1017,11 +1086,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/63.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/63.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/63.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/63.wav
   - type: mushra
     id: sentence64
-    name: Some name
-    content: The Commission endorses these efforts to supplement the Services own
-      personnel by obtaining, for short periods of time,
+    name: The Commission endorses these efforts to supplement the Services own personnel
+      by obtaining, for short periods of time,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/64.wav
@@ -1033,10 +1103,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/64.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/64.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/64.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/64.wav
   - type: mushra
     id: sentence65
-    name: Some name
-    content: the assistance of trained Federal law enforcement officers.
+    name: the assistance of trained Federal law enforcement officers.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/65.wav
@@ -1048,11 +1119,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/65.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/65.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/65.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/65.wav
   - type: mushra
     id: sentence66
-    name: Some name
-    content: In view of the ever-increasing mobility of American Presidents, it seems
+    name: In view of the ever-increasing mobility of American Presidents, it seems
       unlikely that the Service could or should increase its own staff to a size
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/66.wav
@@ -1064,11 +1136,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/66.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/66.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/66.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/66.wav
   - type: mushra
     id: sentence67
-    name: Some name
-    content: which would permit it to provide adequate protective manpower for all
-      situations.
+    name: which would permit it to provide adequate protective manpower for all situations.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/67.wav
@@ -1080,11 +1152,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/67.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/67.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/67.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/67.wav
   - type: mushra
     id: sentence68
-    name: Some name
-    content: The Commission recommends that the agencies involved determine how much
+    name: The Commission recommends that the agencies involved determine how much
       periodic assistance they can provide, and that each such agency
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/68.wav
@@ -1096,10 +1169,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/68.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/68.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/68.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/68.wav
   - type: mushra
     id: sentence69
-    name: Some name
-    content: and the Secret Service enter into a formal agreement defining such arrangements.
+    name: and the Secret Service enter into a formal agreement defining such arrangements.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/69.wav
@@ -1111,11 +1185,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/69.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/69.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/69.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/69.wav
   - type: mushra
     id: sentence70
-    name: Some name
-    content: It may eventually be desirable to codify the practice in an Executive
-      order.
+    name: It may eventually be desirable to codify the practice in an Executive order.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/70.wav
@@ -1127,11 +1201,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/70.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/70.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/70.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/70.wav
   - type: mushra
     id: sentence71
-    name: Some name
-    content: The Secret Service will be better able to plan its own long-range personnel
+    name: The Secret Service will be better able to plan its own long-range personnel
       requirements if it knows with reasonable certainty
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/71.wav
@@ -1143,10 +1218,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/71.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/71.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/71.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/71.wav
   - type: mushra
     id: sentence72
-    name: Some name
-    content: the amount of assistance that it can expect from other agencies.
+    name: the amount of assistance that it can expect from other agencies.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/72.wav
@@ -1158,11 +1234,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/72.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/72.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/72.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/72.wav
   - type: mushra
     id: sentence73
-    name: Some name
-    content: The occasional use of personnel from other Federal agencies to assist
-      in protecting the President has a further advantage. It symbolizes the reality
+    name: The occasional use of personnel from other Federal agencies to assist in
+      protecting the President has a further advantage. It symbolizes the reality
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/73.wav
@@ -1174,11 +1251,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/73.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/73.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/73.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/73.wav
   - type: mushra
     id: sentence74
-    name: Some name
-    content: that the job of protecting the President has not been and cannot be exclusively
+    name: that the job of protecting the President has not been and cannot be exclusively
       the responsibility of the Secret Service.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/74.wav
@@ -1190,11 +1268,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/74.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/74.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/74.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/74.wav
   - type: mushra
     id: sentence75
-    name: Some name
-    content: The Secret Service in the past has sometimes guarded its right to be
-      acknowledged as the sole protector of the Chief Executive.
+    name: The Secret Service in the past has sometimes guarded its right to be acknowledged
+      as the sole protector of the Chief Executive.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/75.wav
@@ -1206,10 +1285,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/75.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/75.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/75.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/75.wav
   - type: mushra
     id: sentence76
-    name: Some name
-    content: This no longer appears to be the case.
+    name: This no longer appears to be the case.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/76.wav
@@ -1221,11 +1301,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/76.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/76.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/76.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/76.wav
   - type: mushra
     id: sentence77
-    name: Some name
-    content: Protecting the President is a difficult and complex task which requires
+    name: Protecting the President is a difficult and complex task which requires
       full use of the best resources of many parts of our Government.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/77.wav
@@ -1237,11 +1318,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/77.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/77.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/77.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/77.wav
   - type: mushra
     id: sentence78
-    name: Some name
-    content: Recognition that the responsibility must be shared increases the likelihood
+    name: Recognition that the responsibility must be shared increases the likelihood
       that it will be met.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/78.wav
@@ -1253,11 +1335,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/78.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/78.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/78.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/78.wav
   - type: mushra
     id: sentence79
-    name: Some name
-    content: Much of the Secret Service work requires the development and use of highly
+    name: Much of the Secret Service work requires the development and use of highly
       sophisticated equipment,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/79.wav
@@ -1269,11 +1352,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/79.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/79.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/79.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/79.wav
   - type: mushra
     id: sentence80
-    name: Some name
-    content: some of which must be specially designed to fit unique requirements.
-      Even before the assassination, and to a far greater extent thereafter,
+    name: some of which must be specially designed to fit unique requirements. Even
+      before the assassination, and to a far greater extent thereafter,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/80.wav
@@ -1285,11 +1369,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/80.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/80.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/80.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/80.wav
   - type: mushra
     id: sentence81
-    name: Some name
-    content: the Secret Service has been receiving full cooperation in scientific
-      research and technological development
+    name: the Secret Service has been receiving full cooperation in scientific research
+      and technological development
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/81.wav
@@ -1301,11 +1386,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/81.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/81.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/81.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/81.wav
   - type: mushra
     id: sentence82
-    name: Some name
-    content: from many Government agencies including the Department of Defense and
-      the Presidents Office of Science and Technology.
+    name: from many Government agencies including the Department of Defense and the
+      Presidents Office of Science and Technology.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/82.wav
@@ -1317,11 +1403,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/82.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/82.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/82.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/82.wav
   - type: mushra
     id: sentence83
-    name: Some name
-    content: Even if the manpower and technological resources of the Secret Service
-      are adequately augmented,
+    name: Even if the manpower and technological resources of the Secret Service are
+      adequately augmented,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/83.wav
@@ -1333,11 +1420,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/83.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/83.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/83.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/83.wav
   - type: mushra
     id: sentence84
-    name: Some name
-    content: it will continue to rely in many respects upon the greater resources
-      of the Office of Science and Technology and other agencies.
+    name: it will continue to rely in many respects upon the greater resources of
+      the Office of Science and Technology and other agencies.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/84.wav
@@ -1349,10 +1437,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/84.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/84.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/84.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/84.wav
   - type: mushra
     id: sentence85
-    name: Some name
-    content: The Commission recommends that the present arrangements
+    name: The Commission recommends that the present arrangements
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/85.wav
@@ -1364,12 +1453,13 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/85.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/85.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/85.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/85.wav
   - type: mushra
     id: sentence86
-    name: Some name
-    content: with the Office of Science and Technology and the other Federal agencies
+    name: with the Office of Science and Technology and the other Federal agencies
       that have been so helpful to the Secret Service be placed on a permanent and
       formal basis.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/86.wav
@@ -1381,10 +1471,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/86.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/86.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/86.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/86.wav
   - type: mushra
     id: sentence87
-    name: Some name
-    content: The exchange of letters dated August 31, 1964,
+    name: The exchange of letters dated August 31, 1964,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/87.wav
@@ -1396,11 +1487,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/87.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/87.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/87.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/87.wav
   - type: mushra
     id: sentence88
-    name: Some name
-    content: between Secretary Dillon and Donald F. Hornig, Special Assistant to the
+    name: between Secretary Dillon and Donald F. Hornig, Special Assistant to the
       President for Science and Technology, is a useful effort in the right direction.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/88.wav
@@ -1412,12 +1504,13 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/88.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/88.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/88.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/88.wav
   - type: mushra
     id: sentence89
-    name: Some name
-    content: The Service should negotiate a memorandum of understanding with each
-      agency that has been assisting it and from which it can expect to need help
-      in the future.
+    name: The Service should negotiate a memorandum of understanding with each agency
+      that has been assisting it and from which it can expect to need help in the
+      future.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/89.wav
@@ -1429,11 +1522,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/89.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/89.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/89.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/89.wav
   - type: mushra
     id: sentence90
-    name: Some name
-    content: The essential terms of such memoranda might well be embodied in an Executive
+    name: The essential terms of such memoranda might well be embodied in an Executive
       order.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/90.wav
@@ -1445,11 +1539,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/90.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/90.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/90.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/90.wav
   - type: mushra
     id: sentence91
-    name: Some name
-    content: This Commission can recommend no procedures for the future protection
-      of our Presidents which will guarantee security.
+    name: This Commission can recommend no procedures for the future protection of
+      our Presidents which will guarantee security.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/91.wav
@@ -1461,11 +1556,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/91.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/91.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/91.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/91.wav
   - type: mushra
     id: sentence92
-    name: Some name
-    content: The demands on the President in the execution of His responsibilities
-      in todays world are so varied and complex
+    name: The demands on the President in the execution of His responsibilities in
+      todays world are so varied and complex
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/92.wav
@@ -1477,11 +1573,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/92.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/92.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/92.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/92.wav
   - type: mushra
     id: sentence93
-    name: Some name
-    content: and the traditions of the office in a democracy such as ours are so deep-seated
+    name: and the traditions of the office in a democracy such as ours are so deep-seated
       as to preclude absolute security.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/93.wav
@@ -1493,11 +1590,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/93.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/93.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/93.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/93.wav
   - type: mushra
     id: sentence94
-    name: Some name
-    content: The Commission has, however, from its examination of the facts of President
+    name: The Commission has, however, from its examination of the facts of President
       Kennedys assassination
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/94.wav
@@ -1509,10 +1607,11 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/94.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/94.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/94.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/94.wav
   - type: mushra
     id: sentence95
-    name: Some name
-    content: made certain recommendations which it believes would, if adopted,
+    name: made certain recommendations which it believes would, if adopted,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/95.wav
@@ -1524,11 +1623,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/95.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/95.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/95.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/95.wav
   - type: mushra
     id: sentence96
-    name: Some name
-    content: materially improve upon the procedures in effect at the time of President
+    name: materially improve upon the procedures in effect at the time of President
       Kennedys assassination and result in a substantial lessening of the danger.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/96.wav
@@ -1540,11 +1640,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/96.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/96.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/96.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/96.wav
   - type: mushra
     id: sentence97
-    name: Some name
-    content: As has been pointed out, the Commission has not resolved all the proposals
+    name: As has been pointed out, the Commission has not resolved all the proposals
       which could be made. The Commission nevertheless is confident that,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/97.wav
@@ -1556,12 +1657,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/97.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/97.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/97.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/97.wav
   - type: mushra
     id: sentence98
-    name: Some name
-    content: with the active cooperation of the responsible agencies and with the
-      understanding of the people of the United States in their demands upon their
-      President,
+    name: with the active cooperation of the responsible agencies and with the understanding
+      of the people of the United States in their demands upon their President,
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/98.wav
@@ -1573,11 +1674,12 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/98.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/98.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/98.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/98.wav
   - type: mushra
     id: sentence99
-    name: Some name
-    content: the recommendations we have here suggested would greatly advance the
-      security of the office without any impairment of our fundamental liberties.
+    name: the recommendations we have here suggested would greatly advance the security
+      of the office without any impairment of our fundamental liberties.
+    content: Please rate each audio according to perceived speech quality and fluency.
     showWaveform: true
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/99.wav
@@ -1589,6 +1691,7 @@ pages:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/99.wav
       efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/99.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/99.wav
+      fertility: configs/resources/audio/synthesized_audio/fertility/99.wav
   - type: finish
     name: Thank you!
     content: Some welcome text.
