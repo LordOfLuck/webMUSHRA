@@ -36,7 +36,7 @@ for i, s in enumerate(sentences):
       'id': 'sentence'+str(i),
       'name': s,
       'content': 'Please rate each audio according to perceived speech quality and fluency.',
-      'showWaveform': True,
+      'showWaveform': False,
       'enableLooping': False,
       'reference': f'configs/resources/audio/synthesized_audio/reference/{i}.wav',
       'createAnchor35': False,

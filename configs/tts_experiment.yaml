@@ -15,13 +15,14 @@ pages:
       and speech fluency. On each page, you will be presented with 5 recordings of
       the same sentence. One recording is synthesized from my system, three recordings
       are synthesized from other systems and the last recording is a human speaker.
-      The recordings are randomly shuffled. There will be 10 pages in total.
+      The recordings are randomly shuffled. There will be 10 pages in total and the
+      survey should take between 5 to 7 minutes. :)
   - type: mushra
     id: sentence0
     name: Based on its experience during this period, the Secret Service now recommends
       that additional personnel be made available to PRS
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/0.wav
     createAnchor35: false
@@ -38,7 +39,7 @@ pages:
     name: so that these arrangements can be made permanent without adversely affecting
       the operations of the Services field offices.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/1.wav
     createAnchor35: false
@@ -55,7 +56,7 @@ pages:
     name: The Commission regards this as a most useful innovation and urges that the
       practice be continued.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/2.wav
     createAnchor35: false
@@ -71,7 +72,7 @@ pages:
     id: sentence3
     name: Liaison With Local Law Enforcement Agencies
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/3.wav
     createAnchor35: false
@@ -88,7 +89,7 @@ pages:
     name: Advice by the Secret Service to local police in metropolitan areas relating
       to the assistance expected in connection with a Presidential visit
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/4.wav
     createAnchor35: false
@@ -104,7 +105,7 @@ pages:
     id: sentence5
     name: has hitherto been handled on an informal basis.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/5.wav
     createAnchor35: false
@@ -121,7 +122,7 @@ pages:
     name: The Service should consider preparing formal explanations of the cooperation
       anticipated during a Presidential visit to a city,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/6.wav
     createAnchor35: false
@@ -137,7 +138,7 @@ pages:
     id: sentence7
     name: in formats that can be communicated to each level of local authorities.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/7.wav
     createAnchor35: false
@@ -154,7 +155,7 @@ pages:
     name: Thus, the local chief of police could be given a master plan, prepared for
       the occasion, of all protective measures to be taken during the visit;
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/8.wav
     createAnchor35: false
@@ -171,7 +172,7 @@ pages:
     name: each patrolman might be given a prepared booklet of instructions explaining
       what is expected of him. The Secret Service has expressed concern
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/9.wav
     createAnchor35: false
@@ -188,7 +189,7 @@ pages:
     name: that written instructions might come into the hands of local newspapers,
       to the prejudice of the precautions described.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/10.wav
     createAnchor35: false
@@ -205,7 +206,7 @@ pages:
     name: However, the instructions must be communicated to the local police in any
       event and can be leaked to the press whether or not they are in writing.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/11.wav
     createAnchor35: false
@@ -222,7 +223,7 @@ pages:
     name: More importantly, the lack of carefully prepared and carefully transmitted
       instructions for typical visits to cities
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/12.wav
     createAnchor35: false
@@ -239,7 +240,7 @@ pages:
     name: can lead to lapses in protection, such as the confusion in Dallas about
       whether members of the public were permitted on overpasses.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/13.wav
     createAnchor35: false
@@ -255,7 +256,7 @@ pages:
     id: sentence14
     name: Such instructions will not fit all circumstances, of course,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/14.wav
     createAnchor35: false
@@ -272,7 +273,7 @@ pages:
     name: and should not be relied upon to the detriment of the imaginative application
       of judgment in special cases.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/15.wav
     createAnchor35: false
@@ -288,7 +289,7 @@ pages:
     id: sentence16
     name: Inspection of Buildings
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/16.wav
     createAnchor35: false
@@ -306,7 +307,7 @@ pages:
       experimenting with new techniques in the inspection of buildings along a motorcade
       route.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/17.wav
     createAnchor35: false
@@ -322,7 +323,7 @@ pages:
     id: sentence18
     name: According to Secretary Dillon,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/18.wav
     createAnchor35: false
@@ -339,7 +340,7 @@ pages:
     name: the studies indicate that there is some utility in attempting to designate
       certain buildings as involving a higher risk than others.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/19.wav
     createAnchor35: false
@@ -356,7 +357,7 @@ pages:
     name: The Commission strongly encourages these efforts to improve protection along
       a motorcade route.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/20.wav
     createAnchor35: false
@@ -373,7 +374,7 @@ pages:
     name: The Secret Service should utilize the personnel of other Federal law enforcement
       offices
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/21.wav
     createAnchor35: false
@@ -390,7 +391,7 @@ pages:
     name: in the locality to assure adequate manpower for this task, as it is now
       doing.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/22.wav
     createAnchor35: false
@@ -407,7 +408,7 @@ pages:
     name: Lack of adequate resources is an unacceptable excuse for failing to improve
       advance precautions
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/23.wav
     createAnchor35: false
@@ -423,7 +424,7 @@ pages:
     id: sentence24
     name: in this crucial area of Presidential protection.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/24.wav
     createAnchor35: false
@@ -439,7 +440,7 @@ pages:
     id: sentence25
     name: Secret Service Personnel and Facilities
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/25.wav
     createAnchor35: false
@@ -455,7 +456,7 @@ pages:
     id: sentence26
     name: Testimony and other evidence before the Commission
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/26.wav
     createAnchor35: false
@@ -472,7 +473,7 @@ pages:
     name: suggest that the Secret Service is trying to accomplish its job with too
       few people and without adequate modern equipment.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/27.wav
     createAnchor35: false
@@ -489,7 +490,7 @@ pages:
     name: Although Chief Rowley does not complain about the pay scale for Secret Service
       agents,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/28.wav
     createAnchor35: false
@@ -505,7 +506,7 @@ pages:
     id: sentence29
     name: salaries are below those of the FBI and leading municipal police forces.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/29.wav
     createAnchor35: false
@@ -521,7 +522,7 @@ pages:
     id: sentence30
     name: The assistant to the Director of the FBI testified that
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/30.wav
     createAnchor35: false
@@ -538,7 +539,7 @@ pages:
     name: the caseload of each FBI agent averaged 20 to 25, and he felt that this
       was high.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/31.wav
     createAnchor35: false
@@ -555,7 +556,7 @@ pages:
     name: Chief Rowley testified that the present workload of each Secret Service
       agent averages 110.1 cases.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/32.wav
     createAnchor35: false
@@ -572,7 +573,7 @@ pages:
     name: While these statistics relate to the activities of Secret Service agents
       stationed in field offices and not the White House detail,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/33.wav
     createAnchor35: false
@@ -589,7 +590,7 @@ pages:
     name: field agents supplement those on the detail, particularly when the President
       is traveling.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/34.wav
     createAnchor35: false
@@ -606,7 +607,7 @@ pages:
     name: Although the Commission does not know whether the cases involved are entirely
       comparable,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/35.wav
     createAnchor35: false
@@ -623,7 +624,7 @@ pages:
     name: these figures suggest that the agents of the Secret Service are substantially
       overworked.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/36.wav
     createAnchor35: false
@@ -639,7 +640,7 @@ pages:
     id: sentence37
     name: In its budget request for the fiscal year beginning July 1, 1964,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/37.wav
     createAnchor35: false
@@ -656,7 +657,7 @@ pages:
     name: the Secret Service sought funds for 25 new positions, primarily in field
       offices. This increase has been approved by the Congress.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/38.wav
     createAnchor35: false
@@ -673,7 +674,7 @@ pages:
     name: Chief Rowley explained that this would not provide enough additional manpower
       to take all the measures which he considers required.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/39.wav
     createAnchor35: false
@@ -689,7 +690,7 @@ pages:
     id: sentence40
     name: However, the 1964 to 65 budget request was submitted in November 1963
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/40.wav
     createAnchor35: false
@@ -706,7 +707,7 @@ pages:
     name: and requests for additional personnel were not made because of the studies
       then being conducted.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/41.wav
     createAnchor35: false
@@ -723,7 +724,7 @@ pages:
     name: The Secret Service has now presented its recommendations to the Bureau of
       the Budget. The plan proposed by the Service
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/42.wav
     createAnchor35: false
@@ -740,7 +741,7 @@ pages:
     name: would take approximately 20 months to implement and require expenditures
       of approximately $3,000,000 during that period.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/43.wav
     createAnchor35: false
@@ -757,7 +758,7 @@ pages:
     name: The plan provides for an additional 205 agents for the Secret Service. Seventeen
       of this number are proposed for the Protective Research Section;
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/44.wav
     createAnchor35: false
@@ -774,7 +775,7 @@ pages:
     name: 145 are proposed for the field offices to handle the increased volume of
       security investigations
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/45.wav
     createAnchor35: false
@@ -790,7 +791,7 @@ pages:
     id: sentence46
     name: and be available to protect the President or Vice President when they travel;
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/46.wav
     createAnchor35: false
@@ -807,7 +808,7 @@ pages:
     name: 18 agents are proposed for a rotating pool which will go through an intensive
       training cycle and also be available to supplement the White House detail
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/47.wav
     createAnchor35: false
@@ -824,7 +825,7 @@ pages:
     name: in case of unexpected need; and 25 additional agents are recommended to
       provide the Vice President full protection.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/48.wav
     createAnchor35: false
@@ -842,7 +843,7 @@ pages:
       with the Secret Service and authorize a request for the necessary supplemental
       appropriation,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/49.wav
     createAnchor35: false
@@ -859,7 +860,7 @@ pages:
     name: as soon as it can be justified. The Congress has often stressed that it
       will support any reasonable request for funds for the protection of the President.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/50.wav
     createAnchor35: false
@@ -875,7 +876,7 @@ pages:
     id: sentence51
     name: Manpower and Technical Assistance From Other Agencies
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/51.wav
     createAnchor35: false
@@ -892,7 +893,7 @@ pages:
     name: Before the assassination the Secret Service infrequently requested other
       Federal law enforcement agencies to provide personnel
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/52.wav
     createAnchor35: false
@@ -908,7 +909,7 @@ pages:
     id: sentence53
     name: to assist in its protection functions.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/53.wav
     createAnchor35: false
@@ -925,7 +926,7 @@ pages:
     name: Since the assassination, the Service has experimented with the use of agents
       borrowed for short periods from such agencies.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/54.wav
     createAnchor35: false
@@ -942,7 +943,7 @@ pages:
     name: It has used other Treasury law enforcement agents on special experiments
       in building and route surveys in places to which the President frequently travels.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/55.wav
     createAnchor35: false
@@ -959,7 +960,7 @@ pages:
     name: It has also used other Federal law enforcement agents during Presidential
       visits to cities in which such agents are stationed.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/56.wav
     createAnchor35: false
@@ -975,7 +976,7 @@ pages:
     id: sentence57
     name: Thus, in the 4 months following the assassination,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/57.wav
     createAnchor35: false
@@ -992,7 +993,7 @@ pages:
     name: the FBI, on 16 separate occasions, supplied a total of 139 agents to assist
       in protection work during a Presidential visit,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/58.wav
     createAnchor35: false
@@ -1008,7 +1009,7 @@ pages:
     id: sentence59
     name: which represents a departure from its prior practice.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/59.wav
     createAnchor35: false
@@ -1024,7 +1025,7 @@ pages:
     id: sentence60
     name: From February 11 through June 30, 1964,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/60.wav
     createAnchor35: false
@@ -1041,7 +1042,7 @@ pages:
     name: the Service had the advantage of 9,500 hours of work by other enforcement
       agencies.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/61.wav
     createAnchor35: false
@@ -1058,7 +1059,7 @@ pages:
     name: The FBI has indicated that it is willing to continue to make such assistance
       available,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/62.wav
     createAnchor35: false
@@ -1075,7 +1076,7 @@ pages:
     name: even though it agrees with the Secret Service that it is preferable for
       the Service to have enough agents to handle all protective demands.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/63.wav
     createAnchor35: false
@@ -1092,7 +1093,7 @@ pages:
     name: The Commission endorses these efforts to supplement the Services own personnel
       by obtaining, for short periods of time,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/64.wav
     createAnchor35: false
@@ -1108,7 +1109,7 @@ pages:
     id: sentence65
     name: the assistance of trained Federal law enforcement officers.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/65.wav
     createAnchor35: false
@@ -1125,7 +1126,7 @@ pages:
     name: In view of the ever-increasing mobility of American Presidents, it seems
       unlikely that the Service could or should increase its own staff to a size
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/66.wav
     createAnchor35: false
@@ -1141,7 +1142,7 @@ pages:
     id: sentence67
     name: which would permit it to provide adequate protective manpower for all situations.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/67.wav
     createAnchor35: false
@@ -1158,7 +1159,7 @@ pages:
     name: The Commission recommends that the agencies involved determine how much
       periodic assistance they can provide, and that each such agency
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/68.wav
     createAnchor35: false
@@ -1174,7 +1175,7 @@ pages:
     id: sentence69
     name: and the Secret Service enter into a formal agreement defining such arrangements.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/69.wav
     createAnchor35: false
@@ -1190,7 +1191,7 @@ pages:
     id: sentence70
     name: It may eventually be desirable to codify the practice in an Executive order.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/70.wav
     createAnchor35: false
@@ -1207,7 +1208,7 @@ pages:
     name: The Secret Service will be better able to plan its own long-range personnel
       requirements if it knows with reasonable certainty
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/71.wav
     createAnchor35: false
@@ -1223,7 +1224,7 @@ pages:
     id: sentence72
     name: the amount of assistance that it can expect from other agencies.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/72.wav
     createAnchor35: false
@@ -1240,7 +1241,7 @@ pages:
     name: The occasional use of personnel from other Federal agencies to assist in
       protecting the President has a further advantage. It symbolizes the reality
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/73.wav
     createAnchor35: false
@@ -1257,7 +1258,7 @@ pages:
     name: that the job of protecting the President has not been and cannot be exclusively
       the responsibility of the Secret Service.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/74.wav
     createAnchor35: false
@@ -1274,7 +1275,7 @@ pages:
     name: The Secret Service in the past has sometimes guarded its right to be acknowledged
       as the sole protector of the Chief Executive.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/75.wav
     createAnchor35: false
@@ -1290,7 +1291,7 @@ pages:
     id: sentence76
     name: This no longer appears to be the case.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/76.wav
     createAnchor35: false
@@ -1307,7 +1308,7 @@ pages:
     name: Protecting the President is a difficult and complex task which requires
       full use of the best resources of many parts of our Government.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/77.wav
     createAnchor35: false
@@ -1324,7 +1325,7 @@ pages:
     name: Recognition that the responsibility must be shared increases the likelihood
       that it will be met.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/78.wav
     createAnchor35: false
@@ -1341,7 +1342,7 @@ pages:
     name: Much of the Secret Service work requires the development and use of highly
       sophisticated equipment,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/79.wav
     createAnchor35: false
@@ -1358,7 +1359,7 @@ pages:
     name: some of which must be specially designed to fit unique requirements. Even
       before the assassination, and to a far greater extent thereafter,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/80.wav
     createAnchor35: false
@@ -1375,7 +1376,7 @@ pages:
     name: the Secret Service has been receiving full cooperation in scientific research
       and technological development
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/81.wav
     createAnchor35: false
@@ -1392,7 +1393,7 @@ pages:
     name: from many Government agencies including the Department of Defense and the
       Presidents Office of Science and Technology.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/82.wav
     createAnchor35: false
@@ -1409,7 +1410,7 @@ pages:
     name: Even if the manpower and technological resources of the Secret Service are
       adequately augmented,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/83.wav
     createAnchor35: false
@@ -1426,7 +1427,7 @@ pages:
     name: it will continue to rely in many respects upon the greater resources of
       the Office of Science and Technology and other agencies.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/84.wav
     createAnchor35: false
@@ -1442,7 +1443,7 @@ pages:
     id: sentence85
     name: The Commission recommends that the present arrangements
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/85.wav
     createAnchor35: false
@@ -1460,7 +1461,7 @@ pages:
       that have been so helpful to the Secret Service be placed on a permanent and
       formal basis.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/86.wav
     createAnchor35: false
@@ -1476,7 +1477,7 @@ pages:
     id: sentence87
     name: The exchange of letters dated August 31, 1964,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/87.wav
     createAnchor35: false
@@ -1493,7 +1494,7 @@ pages:
     name: between Secretary Dillon and Donald F. Hornig, Special Assistant to the
       President for Science and Technology, is a useful effort in the right direction.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/88.wav
     createAnchor35: false
@@ -1511,7 +1512,7 @@ pages:
       that has been assisting it and from which it can expect to need help in the
       future.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/89.wav
     createAnchor35: false
@@ -1528,7 +1529,7 @@ pages:
     name: The essential terms of such memoranda might well be embodied in an Executive
       order.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/90.wav
     createAnchor35: false
@@ -1545,7 +1546,7 @@ pages:
     name: This Commission can recommend no procedures for the future protection of
       our Presidents which will guarantee security.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/91.wav
     createAnchor35: false
@@ -1562,7 +1563,7 @@ pages:
     name: The demands on the President in the execution of His responsibilities in
       todays world are so varied and complex
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/92.wav
     createAnchor35: false
@@ -1579,7 +1580,7 @@ pages:
     name: and the traditions of the office in a democracy such as ours are so deep-seated
       as to preclude absolute security.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/93.wav
     createAnchor35: false
@@ -1596,7 +1597,7 @@ pages:
     name: The Commission has, however, from its examination of the facts of President
       Kennedys assassination
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/94.wav
     createAnchor35: false
@@ -1612,7 +1613,7 @@ pages:
     id: sentence95
     name: made certain recommendations which it believes would, if adopted,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/95.wav
     createAnchor35: false
@@ -1629,7 +1630,7 @@ pages:
     name: materially improve upon the procedures in effect at the time of President
       Kennedys assassination and result in a substantial lessening of the danger.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/96.wav
     createAnchor35: false
@@ -1646,7 +1647,7 @@ pages:
     name: As has been pointed out, the Commission has not resolved all the proposals
       which could be made. The Commission nevertheless is confident that,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/97.wav
     createAnchor35: false
@@ -1663,7 +1664,7 @@ pages:
     name: with the active cooperation of the responsible agencies and with the understanding
       of the people of the United States in their demands upon their President,
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/98.wav
     createAnchor35: false
@@ -1680,7 +1681,7 @@ pages:
     name: the recommendations we have here suggested would greatly advance the security
       of the office without any impairment of our fundamental liberties.
     content: Please rate each audio according to perceived speech quality and fluency.
-    showWaveform: true
+    showWaveform: false
     enableLooping: false
     reference: configs/resources/audio/synthesized_audio/reference/99.wav
     createAnchor35: false
@@ -1694,5 +1695,5 @@ pages:
       fertility: configs/resources/audio/synthesized_audio/fertility/99.wav
   - type: finish
     name: Thank you!
-    content: Some welcome text.
+    content: Your evaluation is much appreciated! ;)
     writeResults: true
