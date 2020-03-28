@@ -31,7 +31,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/0.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/0.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/0.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/0.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/0.wav
   - type: mushra
@@ -48,7 +48,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/1.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/1.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/1.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/1.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/1.wav
   - type: mushra
@@ -65,7 +65,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/2.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/2.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/2.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/2.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/2.wav
   - type: mushra
@@ -81,7 +81,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/3.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/3.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/3.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/3.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/3.wav
   - type: mushra
@@ -98,7 +98,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/4.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/4.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/4.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/4.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/4.wav
   - type: mushra
@@ -114,7 +114,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/5.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/5.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/5.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/5.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/5.wav
   - type: mushra
@@ -131,7 +131,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/6.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/6.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/6.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/6.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/6.wav
   - type: mushra
@@ -147,7 +147,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/7.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/7.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/7.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/7.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/7.wav
   - type: mushra
@@ -164,7 +164,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/8.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/8.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/8.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/8.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/8.wav
   - type: mushra
@@ -181,7 +181,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/9.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/9.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/9.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/9.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/9.wav
   - type: mushra
@@ -198,7 +198,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/10.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/10.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/10.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/10.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/10.wav
   - type: mushra
@@ -215,7 +215,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/11.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/11.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/11.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/11.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/11.wav
   - type: mushra
@@ -232,7 +232,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/12.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/12.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/12.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/12.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/12.wav
   - type: mushra
@@ -249,7 +249,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/13.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/13.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/13.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/13.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/13.wav
   - type: mushra
@@ -265,7 +265,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/14.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/14.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/14.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/14.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/14.wav
   - type: mushra
@@ -282,7 +282,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/15.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/15.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/15.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/15.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/15.wav
   - type: mushra
@@ -298,7 +298,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/16.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/16.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/16.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/16.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/16.wav
   - type: mushra
@@ -316,7 +316,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/17.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/17.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/17.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/17.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/17.wav
   - type: mushra
@@ -332,7 +332,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/18.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/18.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/18.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/18.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/18.wav
   - type: mushra
@@ -349,7 +349,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/19.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/19.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/19.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/19.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/19.wav
   - type: mushra
@@ -366,7 +366,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/20.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/20.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/20.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/20.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/20.wav
   - type: mushra
@@ -383,7 +383,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/21.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/21.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/21.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/21.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/21.wav
   - type: mushra
@@ -400,7 +400,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/22.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/22.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/22.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/22.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/22.wav
   - type: mushra
@@ -417,7 +417,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/23.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/23.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/23.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/23.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/23.wav
   - type: mushra
@@ -433,7 +433,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/24.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/24.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/24.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/24.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/24.wav
   - type: mushra
@@ -449,7 +449,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/25.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/25.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/25.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/25.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/25.wav
   - type: mushra
@@ -465,7 +465,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/26.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/26.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/26.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/26.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/26.wav
   - type: mushra
@@ -482,7 +482,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/27.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/27.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/27.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/27.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/27.wav
   - type: mushra
@@ -499,7 +499,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/28.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/28.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/28.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/28.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/28.wav
   - type: mushra
@@ -515,7 +515,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/29.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/29.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/29.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/29.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/29.wav
   - type: mushra
@@ -531,7 +531,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/30.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/30.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/30.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/30.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/30.wav
   - type: mushra
@@ -548,7 +548,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/31.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/31.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/31.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/31.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/31.wav
   - type: mushra
@@ -565,7 +565,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/32.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/32.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/32.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/32.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/32.wav
   - type: mushra
@@ -582,7 +582,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/33.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/33.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/33.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/33.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/33.wav
   - type: mushra
@@ -599,7 +599,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/34.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/34.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/34.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/34.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/34.wav
   - type: mushra
@@ -616,7 +616,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/35.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/35.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/35.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/35.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/35.wav
   - type: mushra
@@ -633,7 +633,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/36.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/36.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/36.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/36.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/36.wav
   - type: mushra
@@ -649,7 +649,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/37.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/37.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/37.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/37.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/37.wav
   - type: mushra
@@ -666,7 +666,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/38.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/38.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/38.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/38.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/38.wav
   - type: mushra
@@ -683,7 +683,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/39.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/39.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/39.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/39.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/39.wav
   - type: mushra
@@ -699,7 +699,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/40.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/40.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/40.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/40.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/40.wav
   - type: mushra
@@ -716,7 +716,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/41.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/41.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/41.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/41.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/41.wav
   - type: mushra
@@ -733,7 +733,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/42.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/42.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/42.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/42.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/42.wav
   - type: mushra
@@ -750,7 +750,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/43.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/43.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/43.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/43.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/43.wav
   - type: mushra
@@ -767,7 +767,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/44.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/44.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/44.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/44.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/44.wav
   - type: mushra
@@ -784,7 +784,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/45.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/45.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/45.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/45.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/45.wav
   - type: mushra
@@ -800,7 +800,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/46.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/46.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/46.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/46.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/46.wav
   - type: mushra
@@ -817,7 +817,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/47.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/47.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/47.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/47.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/47.wav
   - type: mushra
@@ -834,7 +834,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/48.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/48.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/48.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/48.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/48.wav
   - type: mushra
@@ -852,7 +852,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/49.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/49.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/49.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/49.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/49.wav
   - type: mushra
@@ -869,7 +869,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/50.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/50.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/50.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/50.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/50.wav
   - type: mushra
@@ -885,7 +885,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/51.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/51.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/51.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/51.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/51.wav
   - type: mushra
@@ -902,7 +902,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/52.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/52.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/52.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/52.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/52.wav
   - type: mushra
@@ -918,7 +918,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/53.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/53.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/53.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/53.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/53.wav
   - type: mushra
@@ -935,7 +935,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/54.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/54.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/54.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/54.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/54.wav
   - type: mushra
@@ -952,7 +952,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/55.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/55.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/55.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/55.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/55.wav
   - type: mushra
@@ -969,7 +969,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/56.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/56.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/56.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/56.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/56.wav
   - type: mushra
@@ -985,7 +985,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/57.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/57.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/57.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/57.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/57.wav
   - type: mushra
@@ -1002,7 +1002,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/58.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/58.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/58.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/58.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/58.wav
   - type: mushra
@@ -1018,7 +1018,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/59.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/59.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/59.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/59.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/59.wav
   - type: mushra
@@ -1034,7 +1034,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/60.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/60.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/60.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/60.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/60.wav
   - type: mushra
@@ -1051,7 +1051,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/61.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/61.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/61.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/61.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/61.wav
   - type: mushra
@@ -1068,7 +1068,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/62.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/62.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/62.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/62.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/62.wav
   - type: mushra
@@ -1085,7 +1085,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/63.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/63.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/63.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/63.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/63.wav
   - type: mushra
@@ -1102,7 +1102,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/64.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/64.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/64.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/64.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/64.wav
   - type: mushra
@@ -1118,7 +1118,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/65.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/65.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/65.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/65.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/65.wav
   - type: mushra
@@ -1135,7 +1135,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/66.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/66.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/66.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/66.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/66.wav
   - type: mushra
@@ -1151,7 +1151,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/67.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/67.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/67.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/67.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/67.wav
   - type: mushra
@@ -1168,7 +1168,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/68.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/68.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/68.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/68.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/68.wav
   - type: mushra
@@ -1184,7 +1184,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/69.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/69.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/69.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/69.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/69.wav
   - type: mushra
@@ -1200,7 +1200,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/70.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/70.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/70.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/70.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/70.wav
   - type: mushra
@@ -1217,7 +1217,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/71.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/71.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/71.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/71.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/71.wav
   - type: mushra
@@ -1233,7 +1233,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/72.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/72.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/72.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/72.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/72.wav
   - type: mushra
@@ -1250,7 +1250,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/73.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/73.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/73.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/73.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/73.wav
   - type: mushra
@@ -1267,7 +1267,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/74.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/74.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/74.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/74.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/74.wav
   - type: mushra
@@ -1284,7 +1284,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/75.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/75.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/75.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/75.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/75.wav
   - type: mushra
@@ -1300,7 +1300,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/76.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/76.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/76.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/76.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/76.wav
   - type: mushra
@@ -1317,7 +1317,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/77.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/77.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/77.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/77.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/77.wav
   - type: mushra
@@ -1334,7 +1334,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/78.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/78.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/78.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/78.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/78.wav
   - type: mushra
@@ -1351,7 +1351,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/79.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/79.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/79.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/79.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/79.wav
   - type: mushra
@@ -1368,7 +1368,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/80.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/80.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/80.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/80.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/80.wav
   - type: mushra
@@ -1385,7 +1385,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/81.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/81.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/81.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/81.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/81.wav
   - type: mushra
@@ -1402,7 +1402,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/82.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/82.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/82.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/82.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/82.wav
   - type: mushra
@@ -1419,7 +1419,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/83.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/83.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/83.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/83.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/83.wav
   - type: mushra
@@ -1436,7 +1436,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/84.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/84.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/84.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/84.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/84.wav
   - type: mushra
@@ -1452,7 +1452,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/85.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/85.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/85.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/85.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/85.wav
   - type: mushra
@@ -1470,7 +1470,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/86.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/86.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/86.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/86.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/86.wav
   - type: mushra
@@ -1486,7 +1486,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/87.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/87.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/87.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/87.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/87.wav
   - type: mushra
@@ -1503,7 +1503,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/88.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/88.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/88.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/88.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/88.wav
   - type: mushra
@@ -1521,7 +1521,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/89.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/89.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/89.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/89.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/89.wav
   - type: mushra
@@ -1538,7 +1538,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/90.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/90.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/90.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/90.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/90.wav
   - type: mushra
@@ -1555,7 +1555,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/91.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/91.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/91.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/91.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/91.wav
   - type: mushra
@@ -1572,7 +1572,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/92.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/92.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/92.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/92.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/92.wav
   - type: mushra
@@ -1589,7 +1589,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/93.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/93.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/93.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/93.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/93.wav
   - type: mushra
@@ -1606,7 +1606,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/94.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/94.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/94.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/94.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/94.wav
   - type: mushra
@@ -1622,7 +1622,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/95.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/95.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/95.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/95.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/95.wav
   - type: mushra
@@ -1639,7 +1639,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/96.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/96.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/96.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/96.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/96.wav
   - type: mushra
@@ -1656,7 +1656,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/97.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/97.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/97.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/97.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/97.wav
   - type: mushra
@@ -1673,7 +1673,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/98.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/98.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/98.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/98.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/98.wav
   - type: mushra
@@ -1690,7 +1690,7 @@ pages:
     showConditionNames: false
     stimuli:
       deep_voice: configs/resources/audio/synthesized_audio/deepvoice3/99.wav
-      efficient_tts: configs/resources/audio/synthesized_audio/efficient_tts/99.wav
+      fertiliity_griffin: configs/resources/audio/synthesized_audio/fertility_griffin/99.wav
       tacotron_2: configs/resources/audio/synthesized_audio/tacotron_2/99.wav
       fertility: configs/resources/audio/synthesized_audio/fertility/99.wav
   - type: finish

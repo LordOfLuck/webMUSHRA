@@ -45,7 +45,7 @@ for i, s in enumerate(sentences):
       'showConditionNames': False,
       'stimuli': {
           'deep_voice': f'configs/resources/audio/synthesized_audio/deepvoice3/{i}.wav',
-          'efficient_tts': f'configs/resources/audio/synthesized_audio/efficient_tts/{i}.wav',
+          'fertiliity_griffin': f'configs/resources/audio/synthesized_audio/fertility_griffin/{i}.wav',
           'tacotron_2': f'configs/resources/audio/synthesized_audio/tacotron_2/{i}.wav',
           'fertility': f'configs/resources/audio/synthesized_audio/fertility/{i}.wav',
         }    
