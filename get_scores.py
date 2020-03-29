@@ -13,5 +13,8 @@ for l in lines[1:]:
     
 results = {k: v/len(lines[1:]) * len(results.keys()) for k, v in results.items()}
 
+
+print('Total respondents: ', len(lines[1:])/(10*len(results.keys())))
+print('=========================')
 for k, v in results.items():
     print(k, ': ', v)
