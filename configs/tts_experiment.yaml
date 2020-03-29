@@ -10,7 +10,7 @@ pages:
     name: Speech synthesis evaluation
     content: <b>Welcome</b> to Jan's speech synthesis survey! Jan needs your help! He develops a high-quality <b>speech
       synthesis system</b>. But before submitting his thesis, <b>the system needs
-      a proper quality evaluation</b>. Help us evaluate it!. You will rate <b>perceived speech fluency</b>
+      a proper quality evaluation</b>. Help us evaluate it! You will rate <b>perceived speech fluency</b>
       and <b>voice quality</b>. Each evaluation page contains 5 recordings
       of the same sentence. Two recordings are synthesized from Jan's system, two recordings
       are synthesized from other systems and the last recording is a human speaker.
