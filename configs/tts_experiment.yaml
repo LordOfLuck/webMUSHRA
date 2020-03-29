@@ -8,16 +8,14 @@ pages:
   - type: generic
     id: intro_page
     name: Speech synthesis evaluation
-    content: Hi, <b>welcome</b> to this speech synthesis survey. My name is Jan Vainer
-      and I need your help! In my thesis, I tried to develop a high-quality <b>speech
-      synthesis system</b>. But before submitting the thesis, <b>the system needs
-      a quality evaluation</b>. Please evaluate the following sentence recordings
-      according to overall quality. Your rating should cover <b>perceived speech fluency</b>
-      and <b>voice quality</b>. On each page, you will be presented with 5 recordings
-      of the same sentence. One recording is synthesized from my system, three recordings
+    content: <b>Welcome</b> to Jan's speech synthesis survey! Jan needs your help! He develops a high-quality <b>speech
+      synthesis system</b>. But before submitting his thesis, <b>the system needs
+      a proper quality evaluation</b>. Help us evaluate it!. You will rate <b>perceived speech fluency</b>
+      and <b>voice quality</b>. Each evaluation page contains 5 recordings
+      of the same sentence. Two recordings are synthesized from Jan's system, two recordings
       are synthesized from other systems and the last recording is a human speaker.
       The recordings are randomly shuffled. There will be <b>10 pages in total</b>
-      and the survey should take between <b>5 to 7 minutes</b>.
+      and the survey will take you around <b>6 minutes</b>. Thank you for your help!
   - type: mushra
     id: sentence0
     name: Based on its experience during this period, the Secret Service now recommends
