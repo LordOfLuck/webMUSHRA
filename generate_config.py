@@ -25,7 +25,7 @@ output = {
           'type': 'generic',
           'id': 'intro_page',
           'name': 'Speech synthesis evaluation',
-          'content': 'Hi, welcome to this speech synthesis survey. My name is Jan Vainer and I need your help! In my thesis, I tried to develop a high-quality speech synthesis system. But before submitting the thesis, the system needs a quality evaluation. Please evaluate the following sentence recordings according to perceived quality and speech fluency. On each page, you will be presented with 5 recordings of the same sentence. One recording is synthesized from my system, three recordings are synthesized from other systems and the last recording is a human speaker. The recordings are randomly shuffled. There will be 10 pages in total and the survey should take between 5 to 7 minutes. :)',
+          'content': 'Hi, <b>welcome</b> to this speech synthesis survey. My name is Jan Vainer and I need your help! In my thesis, I tried to develop a high-quality <b>speech synthesis system</b>. But before submitting the thesis, <b>the system needs a quality evaluation</b>. Please evaluate the following sentence recordings according to overall quality. Your rating should cover <b>perceived speech fluency</b> and <b>voice quality</b>. On each page, you will be presented with 5 recordings of the same sentence. One recording is synthesized from my system, three recordings are synthesized from other systems and the last recording is a human speaker. The recordings are randomly shuffled. There will be <b>10 pages in total</b> and the survey should take between <b>5 to 7 minutes</b>.',
         }
     ]
 }
@@ -58,7 +58,21 @@ output['pages'].append(
       'type': 'finish',
       'name': 'Thank you!',
       'content': 'Your evaluation is much appreciated! ;)',
-      'writeResults': True
+      'writeResults': True,
+      'questionnaire':
+          {'-type' : 'likert',
+            'name': 'gender',
+            'label': 'Gender',
+            'response':
+             { 
+               '-value' : 'female',
+               'label': 'Female',
+               '-value': 'male',
+               'label': 'Male',
+               '-value': 'other',
+               'label': 'Other'
+             }
+           }
     }
 )
 
