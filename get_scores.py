@@ -30,10 +30,11 @@ for l in lines[1:]:
     results[l[4]].append(float(l[5]))
     
 
-fmt = "|{:<25}" * 4 + "|"
+fmt = "|{:<25}" * 3 + "|"
 print('Total respondents: ', len(lines[1:])/(10*len(results.keys())))
-print(fmt.format('model', 'MOS', 'left', 'right'))
-print('|-------------------------'*4 + "|")
+print(fmt.format('model', 'MOS', '95 % CI'))
+print('|-------------------------'*3 + "|")
 for k, v in results.items():
     m, l, r = bootstrap_ci(v)
-    print(fmt.format(k, m, l, r))
+    ci = f"({round(l-m, 2)}, {round(r-m, 2)})"
+    print(fmt.format(k, m, ci))
