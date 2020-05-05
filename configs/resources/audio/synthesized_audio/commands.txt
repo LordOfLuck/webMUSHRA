@@ -1,0 +1,16 @@
+Deep voice 3 - use virtualenv z diplomky
+
+python synthesis.py /media/jan/Data/models/20180505_deepvoice3_checkpoint_step000640000.pth ~/test_sentences.txt ~/synthesized_audio/deepvoice3
+
+Efficient tts - really painful, needs python3.5.9, use virtualenv and pyenv, + remove matplotlib import from scripts
+
+cat test_sentences.txt | xargs -d '\n' -n1 -bash -c 'python synth.py --text "$1" --file "$1".wav'
+
+
+source dctts2/venv/bin/activate
+i=0
+cat test_sentences.txt | while read line 
+do
+    python dctts2/synth.py --text "$line" --file ~/synthesized_audio/efficient_tts/$i.wav
+    i=$(( i + 1 ))
+done
